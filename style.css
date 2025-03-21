@@ -11,8 +11,30 @@
     background-size: cover;
 }
 
+@media(max-width: 700px){
+    #header{
+    height: 50vh;
+    background-image: url(./image/backgroung.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+}
+
+@media(max-width: 700px){
+        #header h1{
+            font-size: 20px;
+        }
+}
+
 .container{
     margin-left: 100px;
+    margin-right: 100px;
+}
+
+@media(max-width: 700px){
+    .container{
+    margin-left: 10px;
     margin-right: 100px;
 }
 
@@ -20,11 +42,16 @@
     margin-top: 30px;
     width: 100px;
 }
+
 @media(max-width: 700px){
-    .container{
-    margin-left: 10px;
-    margin-right: 100px;
+    .logo{
+    margin-top: 10px;
+    width: 70px;
+   }
+
+        
 }
+
 }
 .header-text{
     margin-left: 100px;
@@ -36,11 +63,10 @@
 
 @media(max-width: 700px){
     .header-text{
-    margin-left: 250px;
+    margin-left: 230px;
     color: rgb(227, 241, 175);
     max-width: 350px;
-    margin-top: 340px;
-
+    margin-top: 120px;
 }
 }
 
@@ -67,6 +93,12 @@ p{
     line-height: 22px;
     padding: 10px;
 }
+@media(max-width: 700px){
+        .Offer p{
+            font-size: 15px;
+        }
+}
+    
 .row{
     margin-top: 5%;
     display: flex;
@@ -112,6 +144,19 @@ h3{
     border-radius: 20px;
     height: 250px;
 }
+@media(max-width: 700px){
+        .Crew p{
+            font-size: 15px;
+        }
+}
+@media(max-width: 700px){
+        .Crew-col img{
+            height: 150px;
+            width: 140%;
+          
+        }
+        
+ }
 
 .Event{
     width: 80;
@@ -130,6 +175,12 @@ h3{
     border-radius: 20px;
     height: 250px;
 }
+@media(max-width: 700px){
+        .Event p{
+            font-size: 15px;
+        }
+}
+
 
 .footer{
     width: 100%;
@@ -141,6 +192,11 @@ h3{
     margin-top: 20px;
     font-weight: 600;
 }
+@media(max-width: 700px){
+    .footer p{
+        font-size: 15px;
+    }
+    }
 .icons .fa{
     color: #f44336;
     margin: 0 13px;
@@ -213,6 +269,11 @@ h3{
     padding: 18px 0;
     font-size: 25px;
 }
+    @media(max-width: 700px){
+        .icons .fa{
+            font-size: 18px;
+        }
+    }
 .info{
     font-style: italic;
     font-size: 20px;
